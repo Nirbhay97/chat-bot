@@ -14,9 +14,9 @@ const PORT = process.env.PORT || 5000;
 
 // GOOGLE SHEET CSV EXPORT URL
 // your excel sheet url, amrita, make sure that these urls have public access, else you need auth which will just complicate things for you
-const SHEET_URL =
-  "https://docs.google.com/spreadsheets/d/10wZk1kHWxIGOD3GJgUrmSk4g30aU0NHQ/export?format=csv";
-
+  const SHEET_URL =
+  "https://docs.google.com/spreadsheets/d/1_v6T9yWYxs0p4A8BKQAUZnxS6plFGDWi/export?format=csv";
+  
 // CACHE
 let cachedData = null;
 let lastFetchTime = 0;
